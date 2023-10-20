@@ -1,0 +1,54 @@
+body {
+  background: #2C2B3D;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'JetBrains Mono', monospace;
+  min-height: 100vh;
+}
+
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 71px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 64px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  width: 604px;
+}
+
+h1 {
+  color: white;
+  font-size: 38px;
+  line-height: 40px;
+}
+
+h1 span {
+  color: #00BFA6;
+}
+
+.line {
+  color: #00BFA6;
+}
